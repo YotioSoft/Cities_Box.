@@ -4889,7 +4889,7 @@
 	if add_rain > 0 and rnd(5) = 2 : playing_BGM_file = "[Sp]Satie-Jeteveux.mp3"
 
 	; Pacrimanモードの場合
-	if config_Pacriman_Mode = 1 :  playing_BGM_file = "[Sp]レトロダンジョン.mp3"
+	if config_Pacriman_Mode = 1 :  playing_BGM_file = "[Sp]retro.mp3"
 	
 	; 再生
 	exist ""+directory+"/bgm/"+playing_BGM_file+""
